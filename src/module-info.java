@@ -1,0 +1,3 @@
+module SeleniumAutomation {
+	requires okio;
+}
