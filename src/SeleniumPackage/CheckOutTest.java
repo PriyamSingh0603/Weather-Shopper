@@ -41,6 +41,7 @@ public class CheckOutTest
 	}
 	public void makePayment() 
 	{
+		System.out.println("Method to make payment");
 		WebElement email  = driver.findElement(By.xpath("//input[@type='email']"));
 		email.sendKeys("priyamsingh@gmail.com");
 		WebElement card = driver.findElement(By.xpath("//input[@placeholder='Card number']"));
